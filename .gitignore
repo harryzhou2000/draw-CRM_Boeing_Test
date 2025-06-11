@@ -1,3 +1,5 @@
 *.png
 *.log
 *__pycache__
+*.tar.gz
+*.pdf

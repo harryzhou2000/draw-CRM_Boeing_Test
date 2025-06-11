@@ -20,5 +20,5 @@ def LoadDNDSLogErr(fname):
                         v = float('nan')
                     out[field].append(v)
     for col in out:
-        col = np.array(col)
+        out[col] = np.array(out[col])
     return out
